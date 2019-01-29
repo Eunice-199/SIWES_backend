@@ -7,7 +7,7 @@ const Isup = mongoose.model('Isup');
 module.exports.register1 = (req, res, next) => {
     var isup = new Isup();
     isup.email = req.body.email;
-    isup.phoneNo = req.body.phoneNo
+    isup.phoneNo = req.body.phoneNo;
     isup.password = req.body.password;
     isup.save((err, doc) => {
         if (!err)
