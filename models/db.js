@@ -5,4 +5,3 @@ mongoose.connect(process.env.MONGODB_URI, (err) => {
 });
 
 require('./student.model');
-require('./isup.model');
