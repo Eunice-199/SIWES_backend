@@ -25,7 +25,7 @@ router.post('/', (req, res) => {
         matricNo: req.body.matricNo,
         dressing: req.body.dressing,
         presentation: req.body.presentation,
-        audible: req.body.audible,
+        audibility: req.body.audibility,
         composition: req.body.composition,
         workdone: req.body.workdone,
 
@@ -44,7 +44,7 @@ router.put('/:id', (req, res) => {
         matricNo: req.body.matricNo,
         dressing: req.body.dressing,
         presentation: req.body.presentation,
-        audible: req.body.audible,
+        audibility: req.body.audibility,
         composition: req.body.composition,
         workdone: req.body.workdone,
     };
